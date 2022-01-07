@@ -22,7 +22,7 @@
 
 
 ## Support 👨‍💻
-- Talk to me about career stuff! As someone who has already has a few serious career pivots under their belt, I really enjoy thinking about how to figure out how to find work that’s valuable and interesting
+- Talk to me about career stuff! As someone who has already has a few serious career pivots under their belt, I really enjoy thinking about how to find work that’s valuable and interesting
 - I’m always more than happy to chat about SEO, content, wordsmithing, brainstorming, leadership, public speaking, data visualization, and data storytelling
 - In what appears to be a theme for the team — I’m also very passionate about mental health and am always happy to talk openly about managing depression, anxiety, panic attacks, burnout, and insomnia
 
