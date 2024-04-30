@@ -1,0 +1,112 @@
+---
+name: "Out of Office \U0001F334"
+about: Planning and communicating upcoming out of office time
+title: ''
+labels: out-of-office
+assignees: ''
+
+---
+
+## Community Engagement Flexible Time Off 
+
+Each team member is expected to review & follow the specific guidance for FTO on the [Community Engagement Team OoO Process doc](https://github.com/github/community-engagement/blob/primary/how-we-work/OoO-process.md) as you plan for time away. 🧳 
+
+## Must-Dos Before Leaving ✅
+
+### Check your Timing & Get Approval
+- [ ] Confirm you have reviewed the [Community Engagement Team OoO Process doc](https://github.com/github/community-engagement/blob/primary/how-we-work/OoO-process.md) on our team repo
+- [ ] Confirm you have reviewed the shared team & business Google calendars before you plan your time away & the .md file with the [Community Engagement Team Annual Calendar.](https://github.com/github/community-engagement/blob/primary/how-we-work/annual-calendar.md)
+  - _You should avoid being OoO during weeks where we have planned events, ex: RKO, Universe, team planning meetings, etc._
+- [ ] **Confirm that you are approved by your manager** to take the time off (provide as much notice as possible).
+
+### Before OoO Starts
+- [ ] Open issue **at least 5 business days prior to OoO** time in `community-engagement` with this template
+   - [ ] cc/ the entire Community team and any relevant contacts on your issue
+- [ ] Enter out-of-office time in Workday
+- [ ] Add an event to every day you will be OoO on your personal Google Calendar
+- [ ] Copy that event to the [Community Engagement team OoO & Team Planning calendar](https://calendar.google.com/calendar?cid=Y19obnZwbW84OWwxZmxzdmNubzU1NHIyNGo4Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+  - _Pro Tip: Use an event instead of Google Calendar's OOO option, which allows you to mark 'Availability' as "Free", and more importantly select "All Day". (If times are used, it creates strange blocks on your colleagues' calendars.)_
+- [ ] Review all the meetings you'd otherwise attend, and delegate someone to fulfill your role there
+- [ ] Notify people you routinely work with of upcoming absence (including your back-up & manager), at least 2 days prior to your vacation
+- [ ] Arrange a point of contact during your absence
+- [ ] _Community Managers_: Confirm Moderation back-ups, **at least 5 business days in advance**, and add that information to this issue
+  - [ ] Share your [Category playbook(s)](https://github.com/github/community-engagement/blob/primary/how-we-work/community-manager-resources/category-specific/README.md) on this issue.
+  - [ ] Meet with your backup person at least 2-5 days before your vacation
+- [ ] Adjust oncall rotations if needed
+- [ ] Close or hand-off work you have in progress, e.g. PRs
+- [ ] Complete any issue or project updates that will be due during your abscence (ex: OKR status updates, snippets)
+- [ ] _Managers_: Delegate another manager to check in with direct reports and/or cover 1-1s while you are out
+
+### When OoO Starts
+- [ ] Update Slack status to Out of Office and indicate what date you are returning: Ex: 🌴 "Returning Jan 5th"
+- [ ] If you work with outside partners or vendors: Update your email autoreply
+- [ ] Set your GitHub status, and select the "Busy" option
+- [ ] Set a vacation delegate for entitlements, if applicable, by running the `.entitlements delegate add [your-delegate] for [you]` chatop in the [#entitlements-ops](https://github.slack.com/archives/C01BR03D881) channel (or any hubot enabled channel)
+- [ ] _Managers_: Set a vacation delegate in Expensify, if applicable (Expensify -> Settings -> Account Details -> Vacation Delegate)
+- [ ] _Managers_: Set a vacation delegate in [Coupa](https://github.coupahost.com/user/manage_delegates), if applicable
+
+### When OoO Ends
+- [ ] Reverse the above 'When OoO starts' steps 🔁
+
+
+## Vacation Dates 🌴
+[DATES HERE]
+start_date:
+  description: "OoO Start Date"
+  type: date
+  required: true
+
+end_date:
+  description: "OoO End Date"
+  type: date
+  required: true
+
+region:
+  description: "Region"
+  type: single-select
+  required: true
+   options:
+    - US-East
+    - US-West
+    - UK
+    - India
+
+## Category Playbook(s) 📓
+
+## Current Projects
+
+### Project I Title
+
+**Description**
+[DESCRIPTION of project here]
+
+**Contacts**
+[WHO are the people you are working with on this project?]
+
+**Open Items**
+[WHAT is in process currently?]
+
+**Expected Follow-Ups**
+[WHEN should you hear back from others about items for this project?]
+
+**PRP (Back-Up)**
+[WHO is your second-in-command for this project?]
+
+
+### Project II Title
+
+**Description**
+[DESCRIPTION of project here]
+
+**Contacts**
+[WHO are the people you are working with on this project?]
+
+
+**Open Items**
+[WHAT is in process currently?]
+
+**Expected Follow-Ups**
+[WHEN should you hear back from others about items for this project?]
+
+**PRP (Back-Up)**
+[WHO is your second-in-command for this project?]
