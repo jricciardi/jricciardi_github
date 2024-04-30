@@ -3,27 +3,13 @@ title: OoO
 description: Planning and communicating upcoming out of office time
 labels: out-of-office
 
-start_date:
-  description: "OoO Start Date"
-  type: date
-  required: true
-
-end_date:
-  description: "OoO End Date"
-  type: date
-  required: true
-
-region:
-  description: "Region"
-  type: single-select
-  required: true
-   options:
-    - US-East
-    - US-West
-    - UK
-    - India
-
 body: 
+- type: date
+  description: "OoO Start Date"
+  validations:
+    required: true
+
+
 - type: markdown
   attributes:
     value:  
