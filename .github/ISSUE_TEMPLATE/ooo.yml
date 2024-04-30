@@ -1,12 +1,8 @@
----
 name: Out of Office
 title: OoO
 description: Planning and communicating upcoming out of office time
 labels: out-of-office
 
----
-## Vacation Dates 🌴
-[DATES HERE]
 start_date:
   description: "OoO Start Date"
   type: date
