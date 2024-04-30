@@ -1,12 +1,36 @@
 ---
-name: "Out of Office \U0001F334"
-about: Planning and communicating upcoming out of office time
-title: ''
+name: Out of Office
+title: OoO
+description: Planning and communicating upcoming out of office time
 labels: out-of-office
-assignees: ''
 
 ---
+## Vacation Dates 🌴
+[DATES HERE]
+start_date:
+  description: "OoO Start Date"
+  type: date
+  required: true
 
+end_date:
+  description: "OoO End Date"
+  type: date
+  required: true
+
+region:
+  description: "Region"
+  type: single-select
+  required: true
+   options:
+    - US-East
+    - US-West
+    - UK
+    - India
+
+body: 
+- type: markdown
+  attributes:
+    value:  
 ## Community Engagement Flexible Time Off 
 
 Each team member is expected to review & follow the specific guidance for FTO on the [Community Engagement Team OoO Process doc](https://github.com/github/community-engagement/blob/primary/how-we-work/OoO-process.md) as you plan for time away. 🧳 
@@ -49,27 +73,7 @@ Each team member is expected to review & follow the specific guidance for FTO on
 - [ ] Reverse the above 'When OoO starts' steps 🔁
 
 
-## Vacation Dates 🌴
-[DATES HERE]
-start_date:
-  description: "OoO Start Date"
-  type: date
-  required: true
 
-end_date:
-  description: "OoO End Date"
-  type: date
-  required: true
-
-region:
-  description: "Region"
-  type: single-select
-  required: true
-   options:
-    - US-East
-    - US-West
-    - UK
-    - India
 
 ## Category Playbook(s) 📓
 
